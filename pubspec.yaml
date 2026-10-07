@@ -1,5 +1,5 @@
 name: sada
-description: SADA video call app with front and back camera
+description: SADA video call app
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -10,7 +10,6 @@ dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.2.2
-  permission_handler: ^11.3.0
 
 flutter:
   uses-material-design: true
