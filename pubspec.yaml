@@ -1,20 +1,16 @@
-name: sada_v2
-description: SADA - تطبيق مكالمات صوتية وفيديو سوداني
+name: sada
+description: SADA video call app with front and back camera
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.5
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^3.0.0
+  shared_preferences: ^2.2.2
+  permission_handler: ^11.3.0
 
 flutter:
   uses-material-design: true
